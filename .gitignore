@@ -1,0 +1,110 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Certificates
+main/certs/**
+
+# Application project files
+**/sdkconfig
+**/sdkconfig.old
+**/build
+**/*.bin
+dependencies.lock
+
+# CMake/make
+*.swp
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# CMake generated files
+**/bootloader
+**/bootloader-prefix
+**/config
+**/esp-idf
+**/kconfig_bin
+**/mconf-idf-prefix
+compile_commands.json
+config.env
+flash_*
+flasher_args.json
+ldgen_*
+project_description.json
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.pyc
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# emacs
+.dir-locals.el
+
+# emacs temp file suffixes
+*~
+.#*
+\#*#
+
+# eclipse setting
+.settings
+
+# MacOS directory files
+.DS_Store

@@ -1,0 +1,4 @@
+{
+    "idf.adapterTargetName": "esp8266",
+    "cmake.configureOnOpen": false
+}
